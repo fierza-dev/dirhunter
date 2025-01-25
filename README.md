@@ -6,7 +6,8 @@
 - 🔍 **Fast Search**: Optimized algorithms to accelerate directory searches.  
 - 🧰 **Customization Support**: Use your preferred wordlist for more specific results.    
 - 🌐 **HTTP/HTTPS Compatibility**: Automatically detects and handles protocols correctly.  
-- 🛠️ **Beta & Stable Versions**: Enjoy experimental features in the beta version or the stability of older versions.  
+- 🛠️ **Beta & Stable Versions**: Enjoy experimental features in the beta version or the stability of older versions.
+- 🔥 **Shebang Support**
 
 ## Installation  
 1. Clone this repository:  
