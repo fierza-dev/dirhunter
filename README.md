@@ -14,7 +14,7 @@
    ```bash
    git clone https://github.com/yourusername/dirhunter.git
    cd dirhunter
-2. Install the required dependencies
+2. Install the required dependencies \n
    pip install -r requirements.txt
 4. Run the tool
    python3 app.py -u <target-url>
