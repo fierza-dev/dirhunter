@@ -14,9 +14,11 @@
    ```bash
    git clone https://github.com/yourusername/dirhunter.git
    cd dirhunter
-2. pip install -r requirements.txt
-3. python3 app.py -u <target-url>
- - Example : python3 app.py -u https://example.com
+2. Install the required dependencies
+   pip install -r requirements.txt
+4. Run the tool
+   python3 app.py -u <target-url>
+   Example : python3 app.py -u https://example.com
 
 ## License
-This project is licensed under AGPL-3.0 license.
+This project is licensed under the AGPL-3.0 license.
