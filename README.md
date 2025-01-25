@@ -14,10 +14,10 @@
    ```bash
    git clone https://github.com/yourusername/dirhunter.git
    cd dirhunter
-2. Install the required dependencies \n
+2. Install the required dependencies <br>
    pip install -r requirements.txt
-4. Run the tool
-   python3 app.py -u <target-url>
+4. Run the tool <br>
+   python3 app.py -u <target-url> <br>
    Example : python3 app.py -u https://example.com
 
 ## License
