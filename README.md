@@ -4,8 +4,7 @@
 
 ## Key Features  
 - 🔍 **Fast Search**: Optimized algorithms to accelerate directory searches.  
-- 🧰 **Customization Support**: Use your preferred wordlist for more specific results.  
-- 📊 **Usage Statistics**: Displays execution time and CPU usage for each process.  
+- 🧰 **Customization Support**: Use your preferred wordlist for more specific results.    
 - 🌐 **HTTP/HTTPS Compatibility**: Automatically detects and handles protocols correctly.  
 - 🛠️ **Beta & Stable Versions**: Enjoy experimental features in the beta version or the stability of older versions.  
 
