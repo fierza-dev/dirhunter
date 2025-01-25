@@ -7,7 +7,7 @@
 - 🧰 **Customization Support**: Use your preferred wordlist for more specific results.    
 - 🌐 **HTTP/HTTPS Compatibility**: Automatically detects and handles protocols correctly.  
 - 🛠️ **Beta & Stable Versions**: Enjoy experimental features in the beta version or the stability of older versions.
-- 🔥 **Shebang Support**
+- 🔥 **Shebang Support**: Allows the tool to be executed directly as a script in Unix-like systems.
 
 ## Installation  
 1. Clone this repository:  
