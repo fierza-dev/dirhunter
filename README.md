@@ -14,7 +14,7 @@
 ## Installation  
 1. Clone this repository:  
    ```bash
-   git clone [https://github.com/fierza-dev/dirhunter.git)
+   git clone [https://github.com/fierza-dev/dirhunter.git]
    cd dirhunter
 2. Install the required dependencies <br>
    pip install -r requirements.txt
