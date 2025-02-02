@@ -2,3 +2,4 @@ python-dotenv
 colorama
 aiofiles
 aiohttp
+async_timeout
