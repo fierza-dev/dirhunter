@@ -1,13 +1,11 @@
-from imports.common_import import setdefaulttimeout,timeout,create_connection,Fore,Style
+from imports.common_import import urlparse,Console
 
-setdefaulttimeout(5)
-
-def is_host_reachable(host):
-    print(f'[{Fore.WHITE}*{Style.RESET_ALL}] Checking host...')
-    try:
-        with create_connection((host, 80)):
-            print(f'[{Fore.GREEN}✓{Style.RESET_ALL}] Host {host} is reachable.')
-            return True
-    except (timeout, OSError):
-        print(f'[{Fore.RED}X{Style.RESET_ALL}] Host {host} is not reachable.')
-        return False
+async def is_host_reachable(url):
+    parsed_url = urlparse(url)
+    
+    if not (parsed_url.scheme and parsed_url.netloc):
+        Console.print(f"[[bold red1]x[/bold red1]] Invalid URL format: {url}", style="bold")
+        return None
+    
+    Console.print(f"[[bold sea_green1]✓[/bold sea_green1]] Host: {parsed_url.netloc}", style="bold bright_white")
+    return True
