@@ -11,7 +11,7 @@
 - 🛠️ **Beta & Stable Versions**: Enjoy experimental features in the beta version or the stability of older versions.
 - 🔥 **Shebang Support**: Allows the tool to be executed directly as a script in Unix-like systems.
 
-##🚀 What's New?
+## 🚀 What's New?
 - Customizable Scanning Speed with Thread Configuration
 - Adjustable Timeout for Better Control
 - Enhanced Scanning Speed for Faster Results
