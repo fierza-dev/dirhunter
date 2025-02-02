@@ -25,7 +25,7 @@
    ```bash
    git clone https://github.com/fierza-dev/dirhunter.git
    cd dirhunter
-   sudo chmod +x app,py
+   (Optional) sudo chmod +x app,py
 2. Install the required dependencies <br>
    pip install -r requirements.txt
 4. Run the tool <br>
