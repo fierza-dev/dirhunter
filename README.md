@@ -34,8 +34,6 @@
    python3 app.py -u <target-url> <br>
    Example : python3 app.py -u https://example.com/<br>
    ```
-   
-   Use Shebang <br>
    ```bash
    ./app.py -u <target-url> <br>
    Example : ./app.py -u https://example.com/<br>
@@ -45,8 +43,6 @@
    ```bash
    python3 app.py -u <target-url> <br>
    ```
-
-   Use Shebang <br>
    ```bash
    ./app.py -u <target-url> <br>
    ```
@@ -55,8 +51,6 @@
    ```bash
    python3 app.py -h <br>
    ```
-
-   Use Shebang <br>
    ```bash
    ./app.py -h <br>
    ```
