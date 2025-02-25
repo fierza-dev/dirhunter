@@ -3,3 +3,4 @@ colorama
 aiofiles
 aiohttp
 async_timeout
+rich
