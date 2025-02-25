@@ -12,7 +12,7 @@
 - 🔥 **Shebang Support**: Allows the tool to be executed directly as a script in Unix-like systems.
 
 ## 🚀 What's New?
-- New Proxy Feature, New Scanning Modes, and WAF Bypass via HTTP Smuggling
+- New Proxy Feature, New Scanning Modes, WAF Bypass via HTTP Smuggling, Etc
 - Enhanced Scanning Speed for Faster Results
 - Optimized Code for Better Performance
 - Bug Fixes and General Improvements
