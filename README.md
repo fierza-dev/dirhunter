@@ -26,15 +26,20 @@
    (Optional) sudo chmod +x app.py
    ```
 2. Install the required dependencies <br>
+   ```bash
    pip install -r requirements.txt
+    ```
 4. Run the tool <br>
+   ```bash
    python3 app.py -u <target-url> <br>
    Example : python3 app.py -u https://example.com/<br>
-
+   ```
+   
    Use Shebang <br>
+   ```bash
    ./app.py -u <target-url> <br>
    Example : ./app.py -u https://example.com/<br>
-
+    ```
 ## Usage tutorial for the tools.
 1.Basic
    ```bash
