@@ -23,7 +23,8 @@
    ```bash
    git clone https://github.com/fierza-dev/dirhunter.git
    cd dirhunter
-   (Optional) sudo chmod +x app,py
+   (Optional) sudo chmod +x app.py
+   ```
 2. Install the required dependencies <br>
    pip install -r requirements.txt
 4. Run the tool <br>
@@ -38,19 +39,22 @@
 1.Basic
    ```bash
    python3 app.py -u <target-url> <br>
+   ```
 
    Use Shebang <br>
    ```bash
    ./app.py -u <target-url> <br>
-   
+   ```
+
  2.To get a list of all options and switches use:
    ```bash
    python3 app.py -h <br>
+   ```
 
    Use Shebang <br>
    ```bash
    ./app.py -h <br>
-
+   ```
 
 ## License
 This project is licensed under the AGPL-3.0 license.
