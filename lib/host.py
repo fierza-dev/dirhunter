@@ -8,5 +8,4 @@ async def is_host_reachable(url):
         Console.print(f"[[bold sea_green1]✓[/bold sea_green1]] Host: [bright_white]{url}[/bright_white]", style="bold")
         return True
     except error.DNSError:
-        print("pler")
         return False
