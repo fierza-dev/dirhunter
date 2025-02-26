@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from rich.console import Console
 from os import system,name,getenv
 from random import choice,randint
-from aiodns import DNSResolver,error
+from urllib.parse import urlparse
 from aiofiles import open as aio_open
 from async_timeout import timeout as asyncTimeout
 from argparse import ArgumentParser,RawTextHelpFormatter
