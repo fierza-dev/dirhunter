@@ -1,11 +1,12 @@
-from imports.common_import import DNSResolver,error,AF_INET,Console,error
+from imports.common_import import DNSResolver,error,AF_INET,Console
 
 async def is_host_reachable(url):
-    host = DNSResolver()
-    
+    resolver = DNSResolver()
+
     try:
-        await host.gethostbyname(url, AF_INET)
-        Console.print(f"[[bold sea_green1]✓[/bold sea_green1]] Host: [bright_white]{url}[/bright_white]", style="bold")
+        await resolver.gethostbyname(url, AF_INET)
+        Console.print(f"[[bold green]✓[/bold green]] Host: [white]{url}[/white]", style="bold")
         return True
-    except error.DNSError:
+    except error.DNSError as e:
+        Console.print(f"[[bold red]✗[/bold red]] Host tidak ditemukan: [white]{url}[/white]", style="bold")
         return False
