@@ -1,4 +1,4 @@
-# Dirhunter v2.3 (Release)
+# Dirhunter v2.3.1 (Release)
 
 **Dirhunter** is a Python-based tool for discovering hidden directories (directory brute-forcing) on web servers using a wordlist. Dirhunter is designed to be **fast, efficient**, and **user-friendly**, supporting various search optimization methods.
 
