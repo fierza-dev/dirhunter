@@ -6,4 +6,4 @@ class Scanner:
 	async def run_scan(self):
 		A='bold';Console.print(f"\n[+] Starting scan on [bold white]{self.GetConfig.host}[/bold white]",style=A)
 		async with ClientSession()as session:tasks=[create_task(self.limited_check_path(session,path))for path in self.GetConfig.paths];results=await gather(*tasks,return_exceptions=True)
-		self.GetConfig.results.extend([res for res in results if res and not isinstance(res,Exception)]);Console.print(f"\n[+] PATH : {len(self.GetConfig.results)} valid paths found.",style=A);Console.print(f"\n[+] Scanning Complete ...",style='bold bright_white')
+		self.GetConfig.results.extend([res for res in results if res and not isinstance(res,Exception)]);Console.print(f"\n[+] PATH : {len(self.GetConfig.results)} valid paths found.",style=A);Console.print(f"\n[+] Scanning Complete...",style='bold bright_white')
