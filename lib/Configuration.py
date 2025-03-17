@@ -11,7 +11,7 @@ class Configuration:
         self.proxy = proxy
         self.threads = threads or 3500
         self.timeout = timeout or 10
-        self.statusCode = statusCode if isinstance(statusCode, list) else [200]
+        self.statusCode = statusCode if isinstance(statusCode, list) else [200,301,302,303,307,308]
         self.paths = []
         self.results = []
         self.Getproxy = []
